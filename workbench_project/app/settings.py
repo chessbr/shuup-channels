@@ -3,8 +3,7 @@ from shuup_workbench.settings import *  # noqa
 
 INSTALLED_APPS = list(INSTALLED_APPS) + [   # noqa
     'channels',
-    'shuup_channels',
-    'shuup_admin_channel',
+    'shuup_channels'
 ]
 
 DATABASES = {
